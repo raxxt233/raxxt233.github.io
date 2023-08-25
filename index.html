@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Ra小小特">
+    <meta name="description" content="Ra小小特的小站 Hi，欢迎来到我的网站！">
+    <meta name="author" content="小小辞儿 (Yuxin Wang)">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/under-development.html" target="_blank">
+    <title>主页 | Ra小小特的小站</title>
+    <script src="/assets/js/jquery.min.js"></script><script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=3FgDsD406nnqRUQk&ck=3FgDsD406nnqRUQk"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" importance="high" />
+    <link rel="icon" href="/assets/img/favicon.png" size="32x32" />
+    <link rel="preload" as="image" href="" />
+    <script>
+        $(function () {
+            $(window).on('scroll', function () {
+                var w = $(document).scrollTop(); //获取滚动条到顶部的垂直高度
+                if (w >= document.documentElement.clientHeight - 100) {
+                    $("#header-bar").css("opacity", 1);
+                    $("#header-bar").css("z-index", 1001);
+                    $("#header-bar a").css("z-index", 1002);
+                    $(".header-bar-logo").css("z-index", 1002);
+                    $("#infobar").css("opacity", localStorage.getItem('infobar-status'));
+                    $("#infobar-close-button").css("z-index", 1003);
+                    $("#infobar-close-button").css("opacity", localStorage.getItem('infobar-status'));
+                } else {
+                    $("#header-bar").css("opacity", 0);
+                    $("#header-bar").css("z-index", 1);
+                    $("#header-bar a").css("z-index", 1);
+                    $(".header-bar-logo").css("z-index", 1);
+                    $("#infobar").css("opacity", 0);
+                    $("#infobar-close-button").css("z-index", 1);
+                    $("#infobar-close-button").css("opacity", 0);
+                }
+            });
+        })
+    </script>
+</head>
+
+<body id="home-body">
+    <iframe class="header" src="/assets/subpages/home.html" title="Home"></iframe>
+    <div id="down"><img src="/assets/img/index.svg" alt="向下滑动，探索新世界！" /></div>
+    <div id="infobar" style="opacity: 0"><a>
+            <div class="nficon"></div>公告栏
+        </a></div>
+    <script src="/assets/js/pageact.js"></script>
+    <button id="infobar-close-button" style="opacity: 0;" type="button">×</button>
+    <script src="/assets/js/closebarbutton-subpage-onclick.js"></script>
+    <div id="header-bar" style="opacity: 0;">
+        <iframe src="/assets/subpages/header-bar.html" class="header-bar-iframe" title="header-bar"></iframe>
+    </div>
+    <div class="subtitle">- <strong>文章</strong> -<br />
+        <p>- Articles -</p>
+    </div>
+    <hr />
+    <div style="display: flex; width: 100%; height: auto; overflow-x: auto;">
+        <div class="home-page-news-image">
+            <a href="/articles/2023-7-27-1.html" title="(2023/7/27) AutoCAD2020使用教程：绘制T字板图形的步骤" target="_blank"><img
+                    src="/assets/img/article-2023-7-27-1.jpg" alt="[image]" />(2023/7/27 最新文章) AutoCAD2020使用教程：绘制T字板图形的步骤</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-1-1.html" title="(2023/8/1 最新文章) Win11的Appx保留和移除参考" target="_blank"><img
+                    src="/assets/img/article-2023-8-1-1.jpg" alt="[image]" />(2023/8/1 最新文章) Win11的Appx保留和移除参考</a>
+        </div> 
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-3-1.html" title="(2023/8/3 最新文章) AutoCAD2020使用教程：多段线的主要命令方式有哪些？" target="_blank"><img
+                    src="/assets/img/article-2023-8-3-1.jpg" alt="[image]" />(2023/8/3 最新文章) AutoCAD2020使用教程：多段线的主要命令方式有哪些？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-4-1.html" title="(2023/8/4 最新文章) AutoCAD2020使用教程：坐标输入方式有哪些？" target="_blank"><img
+                    src="/assets/img/article-2023-8-4-1.jpg" alt="[image]" />(2023/8/4 最新文章) AutoCAD2020使用教程：坐标输入方式有哪些？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-5-1.html" title="(2023/8/5 最新文章) AutoCAD2020使用教程：文件的打开和保存都有方法有哪些？" target="_blank"><img
+                    src="/assets/img/article-2023-8-5-1.jpg" alt="[image]" />(2023/8/5 最新文章) AutoCAD2020使用教程：文件的打开和保存都有哪些方法？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-6-1.html" title="(2023/8/6 最新文章) AutoCAD2020使用教程：转换的方法是什么？" target="_blank"><img
+                    src="/assets/img/article-2023-8-6-1.jpg" alt="[image]" />(2023/8/6 最新文章) AutoCAD2020使用教程：转换的方法是什么？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-6-2.html" title="(2023/8/6 最新文章) AutoCAD2020使用教程：修复受损图形文件的方法是什么？" target="_blank"><img
+                    src="/assets/img/article-2023-8-6-2.jpg" alt="[image]" />(2023/8/6 最新文章) AutoCAD2020使用教程：修复受损图形文件的方法是什么？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-7-1.html" title="(2023/8/7 最新文章) AutoCAD2020使用教程：圆的绘制方式有哪些？" target="_blank"><img
+                    src="/assets/img/article-2023-8-7-1.jpg" alt="[image]" />(2023/8/7 最新文章) AutoCAD2020使用教程：圆的绘制方式有哪些？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-8-1.html" title="(2023/8/8 最新文章) AutoCAD2020使用教程：绘图环境的设置都包括哪些内容？" target="_blank"><img
+                    src="/assets/img/article-2023-8-8-1.jpg" alt="[image]" />(2023/8/8 最新文章) AutoCAD2020使用教程：绘图环境的设置都包括哪些内容？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-8-2.html" title="(2023/8/8 最新文章) AutoCAD2020使用教程：简述绘制扳手图形的主要步骤" target="_blank"><img
+                    src="/assets/img/article-2023-8-8-2.jpg" alt="[image]" />(2023/8/8 最新文章) AutoCAD2020使用教程：简述绘制扳手图形的主要步骤</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-9-1.html" title="(2023/8/9 最新文章) AutoCAD2020使用教程：正多边形、圆角、缩放、分解、夹点命令的含义" target="_blank"><img
+                    src="/assets/img/article-2023-8-9-1.jpg" alt="[image]" />(2023/8/9 最新文章) AutoCAD2020使用教程：正多边形、圆角、缩放、分解、夹点命令的含义</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-10-1.html" title="(2023/8/10 最新文章) AutoCAD2020使用教程：阵列的主要命令方式有哪些？" target="_blank"><img
+                    src="/assets/img/article-2023-8-10-1.jpg" alt="[image]" />(2023/8/10 最新文章) AutoCAD2020使用教程：阵列的主要命令方式有哪些？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-11-1.html" title="(2023/8/11 最新文章) 计算机常见故障处理方法———概述篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-11-1.jpg" alt="[image]" />(2023/8/11 最新文章) 计算机常见故障处理方法———概述篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-12-1.html" title="(2023/8/12 最新文章) 计算机常见故障处理方法———硬盘篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-12-1.jpg" alt="[image]" />(2023/8/12 最新文章) 计算机常见故障处理方法———硬盘篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-13-1.html" title="(2023/8/13 最新文章) 计算机常见故障处理方法———主板篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-13-1.jpg" alt="[image]" />(2023/8/13 最新文章) 计算机常见故障处理方法———主板篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-13-2.html" title="(2023/8/13 最新文章) 计算机常见故障处理方法———显卡及显示器篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-13-2.jpg" alt="[image]" />(2023/8/13 最新文章) 计算机常见故障处理方法———显卡及显示器篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-14-1.html" title="(2023/8/14 最新文章) 计算机常见故障处理方法———内存篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-14-1.jpg" alt="[image]" />(2023/8/14 最新文章) 计算机常见故障处理方法———内存篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-14-2.html" title="(2023/8/14 最新文章) 计算机常见故障处理方法———声卡音箱篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-14-2.jpg" alt="[image]" />(2023/8/14 最新文章) 计算机常见故障处理方法———声卡音箱篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-15-1.html" title="(2023/8/15 最新文章) 计算机常见故障处理方法———光驱软驱篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-15-1.jpg" alt="[image]" />(2023/8/15 最新文章) 计算机常见故障处理方法———光驱软驱篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-15-2.html" title="(2023/8/15 最新文章) 计算机常见故障处理方法———键盘鼠标及机箱电源篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-15-2.jpg" alt="[image]" />(2023/8/15 最新文章) 计算机常见故障处理方法———键盘鼠标及机箱电源篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-16-1.html" title="(2023/8/16 最新文章) 计算机常见故障处理方法———常见外设篇" target="_blank"><img
+                    src="/assets/img/article-2023-8-16-1.jpg" alt="[image]" />(2023/8/16 最新文章) 计算机常见故障处理方法———常见外设篇</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-17-1.html" title="(2023/8/17 最新文章) AutoCAD2020使用教程：构造线命令的使用方法" target="_blank"><img
+                    src="/assets/img/article-2023-8-17-1.jpg" alt="[image]" />(2023/8/17 最新文章) AutoCAD2020使用教程：构造线命令的使用方法</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-17-2.html" title="(2023/8/17 最新文章) AutoCAD2020使用教程：构造线命令的使用方法" target="_blank"><img
+                    src="/assets/img/article-2023-8-17-2.jpg" alt="[image]" />(2023/8/17 最新文章) AutoCAD2020使用教程：文字样式和标注样式的设置方法</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-18-1.html" title="(2023/8/18 最新文章) AutoCAD2020使用教程：如何使用引线命令标注倒角？" target="_blank"><img
+                    src="/assets/img/article-2023-8-18-1.jpg" alt="[image]" />(2023/8/18 最新文章) AutoCAD2020使用教程：如何使用引线命令标注倒角？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-19-1.html" title="(2023/8/19 最新文章) AutoCAD2020使用教程：如何使用引线命令标注倒角？" target="_blank"><img
+                    src="/assets/img/article-2023-8-19-1.jpg" alt="[image]" />(2023/8/19 最新文章) AutoCAD2020使用教程：如何定义块的属性？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-20-1.html" title="(2023/8/20 最新文章) AutoCAD2020使用教程：如何创建块？" target="_blank"><img
+                    src="/assets/img/article-2023-8-20-1.jpg" alt="[image]" />(2023/8/20 最新文章) AutoCAD2020使用教程：如何创建块？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-21-1.html" title="(2023/8/21 最新文章) AutoCAD2020使用教程：尺寸公差如何进行标注？" target="_blank"><img
+                    src="/assets/img/article-2023-8-21-1.jpg" alt="[image]" />(2023/8/21 最新文章) AutoCAD2020使用教程：尺寸公差如何进行标注？</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-22-1.html" title="(2023/8/22 最新文章) AutoCAD2020使用教程：压盖零件的绘图过程" target="_blank"><img
+                    src="/assets/img/article-2023-8-22-1.jpg" alt="[image]" />(2023/8/22 最新文章) AutoCAD2020使用教程：压盖零件的绘图过程</a>
+        </div>
+        <div class="home-page-news-image">
+        <a href="/articles/2023-8-23-1.html" title="(2023/8/23 最新文章) AutoCAD2020使用教程：拨叉零件的绘图过程" target="_blank"><img
+                src="/assets/img/article-2023-8-23-1.jpg" alt="[image]" />(2023/8/23 最新文章) AutoCAD2020使用教程：拨叉零件的绘图过程</a>
+        </div>
+        <div class="home-page-news-image">
+            <a href="/articles/2023-8-24-1.html" title="(2023/8/23 最新文章【特别篇】) 请记住8月24日，这沉痛的一天！" target="_blank"><img
+                    src="/assets/img/article-2023-8-24-1.jpg" alt="[image]" />(2023/8/23 最新文章【特别篇】) 请记住8月24日，这沉痛的一天！</a>
+            </div>
+            <div class="home-page-news-image">
+                <a href="/articles/2023-8-25-1.html" title="(2023/8/25 最新文章) AutoCAD2020使用教程：阀体零件的绘图过程方法" target="_blank"><img
+                        src="/assets/img/article-2023-8-25-1.jpg" alt="[image]" />(2023/8/25 最新文章) AutoCAD2020使用教程：阀体零件的绘图过程方法</a>
+                </div>
+    </div>
+    <hr />
+    <div class="subtitle">- <strong>下载中心</strong> -<br />
+        <p>- Downloads -</p>
+    </div>
+    <hr />
+    <div
+        style="/*display: flex; */width: 100%; height: auto; overflow-x: auto; text-align: center; color: grey; margin-top: 15px;">
+        这里空空如也(っ °Д °;)っ
+    </div>
+    <iframe id="subpage-page-ending" src="/assets/subpages/page-ending-pc.html" onload="adjustIframe();"
+        title="页尾"></iframe>
+</body>
+
+</html>
