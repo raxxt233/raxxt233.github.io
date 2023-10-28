@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Ra小小特">
+    <meta name="description" content="Ra小小特的小站 Hi，欢迎来到我的网站！">
+    <meta name="author" content="小小辞儿 (Yuxin Wang)">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/under-development.html" target="_blank">
+    <title>AutoCAD2020使用教程：绘制T字板图形的步骤 | 文章 | Ra小小特的小站</title>
+    <script src="/assets/js/jquery.min.js"></script><script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=3FgDsD406nnqRUQk&ck=3FgDsD406nnqRUQk"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" importance="high" />
+    <link rel="shortcut icon" href="/assets/img/favicon.png" size="32x32" />
+</head>
+
+<body id="subpage-body">
+    <div id="header-bar">
+        <iframe src="/assets/subpages/header-bar.html" class="header-bar-iframe" title="header-bar"></iframe>
+    </div>
+    <div id="infobar"><a>
+            <div class="nficon"></div>公告栏
+        </a></div>
+    <script src="/assets/js/pageact.js"></script>
+    <button id="infobar-close-button" type="button">×</button>
+    <script src="/assets/js/closebarbutton-subpage-onclick.js"></script>
+    <div class="article-aera">
+        <h6>AutoCAD2020使用教程：绘制T字板图形的步骤</h6>
+        <div class="article-area-info">Ra小小特 发表于 2023/7/27<br />2023总第1期</div>
+        绘制T板平面图的大致顺序：先绘制100x50大矩形框，从而确定T板的尺寸，然后绘制60x26小矩形，最后绘制下方矩形。绘制过程中要用到矩形、直线等命令。<br /><br />
+        1. 绘制矩形100x50<br />
+        单击“绘图”工具栏的“矩形”按钮，命令行展示与操作如下：<br />
+        命令：_rectang<br />
+        指定第一个角点或[倒角(C)/标高(E)/圆角(F)/厚度(T)/宽度(W)]200, 200<br />
+        指定第二个角点:@100, 50<br />
+        2. 绘制矩形20x60<br />
+        单击“绘图”工具栏的“矩形”按钮，命令行展示与操作如下：<br />
+        命令：_rectang<br />
+        指定第一个角点或[倒角(C)/标高(E)/圆角(F)/厚度(T)/宽度(W)]220, 212<br />
+        指定第二个角点:@60, 26<br />
+        3. 绘制矩形20x80<br />
+        单击“绘图”工具栏的“矩形”按钮，命令行展示与操作如下：<br />
+        命令：_rectang<br />
+        指定第一个角点或[倒角(C)/标高(E)/圆角(F)/厚度(T)/宽度(W)]240, 200<br />
+        指定第二个角点:@20, -80<br />
+        4. 修剪矩形20x80<br />
+        单击“修改”工具栏的“修剪”按钮，将矩形20x80按照要求修剪到位。<br />
+        <!--div class="article-area-sign">作者：Ra小小特</div-->
+        </p>
+    </div>
+    <iframe id="subpage-page-ending" src="/assets/subpages/page-ending-pc.html" onload="adjustIframe();"
+        title="页尾"></iframe>
+</body>
+
+</html>
