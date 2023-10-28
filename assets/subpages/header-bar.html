@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Ra小小特">
+    <meta name="description" content="Ra小小特的小站 Hi，欢迎来到我的网站！">
+    <meta name="author" content="小小辞儿 (Yuxin Wang)">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/under-development.html" target="_blank">
+    <title>header-bar | 子页面 | Ra小小特的小站</title>
+    <script src="/assets/js/jquery.min.js"></script>
+    <!--link rel="stylesheet" type="text/css" href="/assets/css/style.css" importance="high" /-->
+    <link rel="icon" href="/assets/img/favicon.png" size="32x32" />
+    <style>
+        @import url('/assets/css/HarmonyOS_regular.css');
+        @import url('https://fonts.googleapis.com/css?family=Google+Sans:400,700%7CNoto+Sans+SC:400,700%7C&display=swap');
+        @import url('https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css');
+
+        * {
+            margin: 0;
+            padding: 0;
+            top: 0;
+        }
+
+        html {
+            font-family: "Google Sans", "Noto Sans SC", "HarmonyOS_Regular";
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            letter-spacing: calc(1ex / 10);
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: calc(100vw - 60px);
+            height: calc(100vh - 30px);
+            position: absolute;
+            background-color: rgba(255, 189, 189, 0.6);
+            /*background: url(/assets/img/bg.jpg);*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-position: center center;
+            /*padding: 10px 30px;*/
+            padding: 15px 30px;
+            object-fit: cover;
+            font-size: 14px;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.866);
+            backdrop-filter: saturate(100%) blur(8px);
+            display: flex;
+            /*justify-content: center;*/
+            align-items: center;
+            z-index: 998;
+            /*opacity: 0;*/
+            box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, .1),
+                3px 3px 12px 0px rgba(0, 0, 0, .1),
+                1px 1px 6px 0px rgba(0, 0, 0, .1);
+        }
+
+        a {
+            top: 2;
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+            /*text-decoration: underline;*/
+        }
+
+        .header-bar-logo {
+            position: relative;
+            font-size: 26px;
+            color: white;
+            margin-right: 10px;
+        }
+
+        .header-bar-logo a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+        }
+
+        .header-bar-logo a:hover {
+            color: white;
+            /*text-decoration: underline;*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-bar-logo"><a href="/" target="_blank"><strong>Ra小小特的小站</strong></a></div>
+    <p>| <a href="" title="文章" target="_blank">文章</a> | <a href="" title="下载中心"
+            target="_blank">下载中心</a> | <a href="https://space.bilibili.com/440662801" title="B站空间"
+            target="_blank">B站空间</a> |</p>
+</body>
+
+</html>
