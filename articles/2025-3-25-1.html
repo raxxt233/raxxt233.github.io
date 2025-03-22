@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Ra小小特">
+    <meta name="description" content="Ra小小特的小站 Hi，欢迎来到我的网站！">
+    <meta name="author" content="Ra小小特 (Hengjia Gu)">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/under-development.html" target="_blank">
+    <title>硬件升级《硬盘篇》 | 文章 | Ra小小特的小站</title>
+    <script src="/assets/js/jquery.min.js"></script><script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=3FgDsD406nnqRUQk&ck=3FgDsD406nnqRUQk"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" importance="high" />
+    <link rel="shortcut icon" href="/assets/img/favicon.png" size="32x32" />
+</head>
+
+<body id="subpage-body">
+    <div id="header-bar">
+        <iframe src="/assets/subpages/header-bar.html" class="header-bar-iframe" title="header-bar"></iframe>
+    </div>
+    <div id="infobar"><a>
+            <div class="nficon"></div>公告栏
+        </a></div>
+    <script src="/assets/js/pageact.js"></script>
+    <button id="infobar-close-button" type="button">×</button>
+    <script src="/assets/js/closebarbutton-subpage-onclick.js"></script>
+    <div class="article-aera">
+        <h6>硬件升级《硬盘篇》</h6>
+        <div class="article-area-info">Ra小小特 发表于 2025/3/25<br />2025总第6期</div>
+        总的来说，升级硬盘主要看三大点<br />
+        一、主板最大可支持容量及代次<br />
+        二、主板端口类型<br />
+        三、固态颗粒类型<br />
+        以下进行详细介绍<br />
+        主板可支持最大硬盘容量<br />
+        最早受到限制的硬盘容量是 528MB， 随后分别是 2.1GB、 3.2GB、 4.2GB 和 8.4GB。 <br />
+        当时人们虽然已经认识到今后硬盘容量会逐渐扩大， 但不少人认为 100GB 的硬盘已经足<br />
+        够了， 所以人们便推出了 28bit LBA 寻址模式。 28bit LBA 模式能够支持的柱面的最大数<br />
+        是 65536， 磁头的最大数是 16， 扇区的最大数是 255。 由于每扇区的容量是 512 字<br />
+        节， 所以 28bit LBA 模式能寻址的最大扇容量是 65536*16*255*512=136. 9GB， 这就是<br />
+        137GB 容量限制的由来（注： 硬盘厂商通常以 1000 作为度量单位， 而不是 Windows <br />
+        所使用的 1024， 即 1000 字节=1KB， 10000KB=1MB，1000MB=1GB）。 不过， 由 28bit <br />
+        LBA 寻址模式引发的 137GB 容量限制只是针对单块硬盘的容量。为了解除 137GB 容量的<br />
+        限制， 业内随后推出了 Big Drives 规范， Big Drives 规范将原来 LBA 寻址中可用的寄存<br />
+        器空间从 28bit 提高到了 48bit， 即 48bit LBA。 这么一来可支持的硬盘容量就达到了 <br />
+        144115188GB，一般说来， 2002 年以后发布的 BIOS 都可以支持 48bit LBA<br />
+        主板代次识别：<br />
+        1、按键盘上的 Windows键，在搜索框输入 系统 ， 选择 系统信息。主板制造和型号将显示在 基板制造商 和 基板产品下。<br />
+        2、在主板品牌官网输入主板型号，即可获取主板的PCIe代次<br />
+        升级硬盘注意事项<br />
+        要注意固态硬盘的接口类型<br />
+        相对来说，固态硬盘对电脑系统运行，以及各类软件的运行速度的提升是很明显的。但是<br />
+        固态硬盘也自己的兼容性，如果接口不兼容的话，就是装上也没用。<br />
+        固态硬盘的接口类型主要有四类，分别是SATA 2.0接口，SATA 3.0接口，M.2 NVMe接口，<br />
+        PCI-E 接口。每一种接口都会兼容不同级别的主板，主板兼容的接口类不同，所需要的固态硬盘也不同。 <br />
+        要注意SATA接口的兼容性<br />
+        在升级为固态硬盘时，如果不注意检查硬盘的接口类型，买回来的固态安装不了，不仅增加了费用，又花费了时间和精力，这样的结果得不偿失。<br />
+        在固态硬盘所有类型的接口中，SATA属于比较传统的接口，在机械硬盘上面运用广泛，主要分有SATA 2.0接口和SATA3.0接口类型。<br />
+        现在电脑硬件上，主流的固态硬盘接口都是SATA3.0接口。老旧点的电脑会用SATA 2.0接<br />
+        口，它的优势在于运用范围广，笔记本台式电脑都可以运用。在通常情况下，SATA接口的<br />
+        固态硬盘读写速度基本在500MB/s左右，而机械硬盘的读写速度基本在100MB/s左右，固态硬盘比机械硬盘的运行速度要快很多。<br />
+        要注意M.2NVMe接口的兼容性<br />
+        M.2 NVMe接口类型，是固态硬盘上的一个特殊新接口(并非所有固态硬盘都有)。M.2 NVMe接口和SATA接口的区别在于M.2 NVMe接口可以支持NVME协议。<br />
+        M.2 NVMe接口比SATA接口的读写运行速度还要快，往往是SATA接口固态硬盘的三倍速度以上，其带宽可以达到16Gbps，实际速度最快可以达到1500MB/s。<br />
+        但是一些老旧的CPU和主板芯片组是不支持M.2 NVMe接口的，所以在选择M.2NVMe接<br />
+        口的固态硬盘之前，一定要事先检查所要升级的电脑主板，看是否有支持M.2 NVMe接口的端口。<br />
+        要注意PCI-E 接口的兼容性<br />
+        PCI-E 接口类型，是接入到主板上面的PCI-E×16接口上面的。要装这个类型固态硬盘时，要购买双通道PCI-Ex16的主板，<br />
+        才可以同时满足插入硬盘以及显卡的要求。<br />
+        固态硬盘QLC、SLC、MLC、TLC颗粒介绍：<br />
+        根据NAND闪存中电子单元密度的差异，可以分为SLC（单层次存储单元）、MLC（双层存储单元）、TLC(三层存储单元)<br />
+        以及最新推出的QLC（四层存储单元）。固态硬盘依靠闪存芯片来存储数据，里面存放数据最小单位叫作“Cell”，<br />
+        SLC每个cell可以存放1bit数据，MLC每个cell可以存放2bit数据，TLC每个cell可以存放3bit数据，而QLC可以存放4bit数据。<br />
+        QLC、SLC、MLC、TLC颗粒区别对比<br />
+        体质：SLC>MLC>TLC>QLC<br />
+        SLC（单层存储单元）<br />
+        全称是Single-Level Cell，单层电子结构，每个cell可以存放1bit数据，SLC达到1bit/cell，<br />
+        写入数据的时候电压变化区间小，P/E寿命较长，理论擦写次数在10万次以上，但是由于成本最高，<br />
+        所以SLC颗粒多数用于企业级高端产品中。<br />
+        MLC（双层存储单元）<br />
+        全称是Multi-Level Cell，使用高低电压的而不同构建的双层电子结构，MLC达到2bit/cell，<br />
+        P/E寿命较长，理论擦写次数在3000-5000次左右，成本相对较高，但是对于消费级来说也可以接受，多用于家用级高端产品中。<br />
+        TLC（三层存储单元）<br />
+        全称是Trinary-Level Cell，三层式存储单元，是MLC闪存延伸，TLC达到3bit/cell，由于存<br />
+        储密度较高，所以容量理论上是MLC的1.5倍，成本较低，但是P/E寿命相对要低一些，<br />
+        理论擦写次数在1000-3000次不等，是目前市面上主流的闪存颗粒。<br />
+        QLC（四层存储单元）<br />
+        全称是Quad-Level Cell，四层式存储单元，QLC闪存颗粒拥有比TLC更高的存储密度，同时<br />
+        成本上相比TLC更低，优势就是可以将容量做的更大，成本上更低，劣势就是P/E寿命更短，理论擦写次数仅150次。<br />
+        <!--div class="article-area-sign">作者：Ra小小特</div-->
+        </p>
+    </div>
+    <iframe id="subpage-page-ending" src="/assets/subpages/page-ending-pc.html" onload="adjustIframe();"
+        title="页尾"></iframe>
+</body>
+
+</html>
