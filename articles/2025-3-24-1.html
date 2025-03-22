@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Ra小小特">
+    <meta name="description" content="Ra小小特的小站 Hi，欢迎来到我的网站！">
+    <meta name="author" content="Ra小小特 (Hengjia Gu)">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/under-development.html" target="_blank">
+    <title>新电脑验机教程 | 文章 | Ra小小特的小站</title>
+    <script src="/assets/js/jquery.min.js"></script><script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=3FgDsD406nnqRUQk&ck=3FgDsD406nnqRUQk"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" importance="high" />
+    <link rel="shortcut icon" href="/assets/img/favicon.png" size="32x32" />
+</head>
+
+<body id="subpage-body">
+    <div id="header-bar">
+        <iframe src="/assets/subpages/header-bar.html" class="header-bar-iframe" title="header-bar"></iframe>
+    </div>
+    <div id="infobar"><a>
+            <div class="nficon"></div>公告栏
+        </a></div>
+    <script src="/assets/js/pageact.js"></script>
+    <button id="infobar-close-button" type="button">×</button>
+    <script src="/assets/js/closebarbutton-subpage-onclick.js"></script>
+    <div class="article-aera">
+        <h6>新电脑验机教程</h6>
+        <div class="article-area-info">Ra小小特 发表于 2025/3/24<br />2025总第5期</div>
+        新电脑首次开机一般需要接通电源，直接按开机键是没反应的。<br />
+        这是因为电脑出厂前会被「上锁」，以避免电池运输或者在库期间被过度放电导致损坏。<br />
+        因此需要接通一次电源来激活电池（不影响 7 天无理由）。<br />
+        所以大家收到新电脑不妨先按按电源键试试，如果能直接开机的话就要怀疑电脑是不是二手了。 <br />
+        接下来就是正常的开机流程，进入 OOBE 界面。<br />
+        OOBE：译为开箱体验，也就是拆开包装后，第一次进入系统前的引导体验，用户<br />
+        将在这个环节设置系统语言、地区、账户密码和网络等设置。<br />
+        如果你开机连 OOBE 界面都没有，不用怀疑，起码二手。<br />
+        进入 OOBE 后按下 Ctrl+Shift+F3，如果有Fn 键的话也可能是 Ctrl+Shift+Fn+F3。<br />
+        不出意外的话系统会弹出「请稍后的菊花圈」然后重启，并以内置的管理员身份进入审核模式。<br />
+        进入审核模式，其实就是进入桌面了，会发现已经自动打开了一个叫做「系统准备工具」的窗口。<br />
+        不要关闭系统准备工具窗口，因为验机结束还要用它来结束审核模式。<br />
+        验机的底线就是要保证还能退货，所以不建议大家在审核模式安装任何程序或修改设置，避免后续给商家留下把柄。<br />
+        1、	按 Win+I 打开设置 – 系统– 关于，查看设备规格，这里包括 CPU 型号、内存容量、系统版本等。<br />
+        2、按 Win+R 打开运行，输入 msinfo32，然后回车，能看到更详细的硬件规格。<br />
+        按Win+R打开运行，输入devmgmt.msc,然后回车，能看到硬件信息和工作状态。<br />
+        笔记本电脑的话，还可以右键开始菜单图标，打开 Windows 终端（管理员）<br />
+        输入 powercfg /batteryreport 命令并按回车。<br />
+        会在 C:\Users（用户）\Administrator 目录下生成一个电池报告文件。<br />
+        【battery-report.html】<br />
+        打开该目录找到这个文件，双击会用浏览器打开。<br />
+        该报告提供有关电池的详细信息，包括名称、制造商、序列号、化学成分和循环次数。您还可以查看一段时间内的使用情况报告。<br />
+        如果电池循环次数已经很多，就要怀疑是不是二手了。<br />
+        验机完毕，就可以退出审核模式了。<br />
+        回到「系统准备工具」窗口，点击确定就会回到 OOBE 界面，程序自动会清除你的操作记录。<br />
+        如果你手快关闭了「系统准备工具」窗口，可以点击按 Win+R 输入sysprep 并运行，然后在打开的文件中双击 sysprep <br />
+        程序重新打开「系统准备工具」窗口。<br />
+        当然，你也可以用 PE 系统来验机，不如审核方便，用完还得记得把 BIOS 改回去，而且一些品牌的型号可能对进 BIOS 和 PE 有限制<br />
+        <!--div class="article-area-sign">作者：Ra小小特</div-->
+        </p>
+    </div>
+    <iframe id="subpage-page-ending" src="/assets/subpages/page-ending-pc.html" onload="adjustIframe();"
+        title="页尾"></iframe>
+</body>
+
+</html>
